@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ibs-icp-api"
+  description: "The API for Integrated Benefits Services (IBS) ICP uses RESTful calls to retrieve or update icp information for the matching Veteran record by pulling data from CorpDB. This document contains an overview of the standard conventions used in the API, as well as a detailed overview of each API endpoint, sample calls and responses."
+  annotations:
+    github.com/project-slug: dstrivelli/ibs-icp-api
+    backstage.io/techdocs-ref: url:https://github.com/dstrivelli/ibs-icp-api
+spec:
+  type: service
+  lifecycle: production
+  owner: "applications"
+  providesApis:
+    - ibs-icp-api

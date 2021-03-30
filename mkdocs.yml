@@ -1,0 +1,8 @@
+site_name: "ibs-icp-api"
+site_description: "The API for Integrated Benefits Services (IBS) ICP uses RESTful calls to retrieve or update icp information for the matching Veteran record by pulling data from CorpDB. This document contains an overview of the standard conventions used in the API, as well as a detailed overview of each API endpoint, sample calls and responses."
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core
